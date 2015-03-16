@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    width: 1100px;
+    width: 1050px;
     font-family: "Roboto Condensed", serif;
 }
 
@@ -27,16 +27,16 @@ header > h2 {
     margin: 0;
 }
 
-.contact, .main {
+.sidebar, .main {
     display: inline-block;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.contact {
+.sidebar {
     vertical-align:top;
-    width: 260px;
+    width: 220px;
 }
 
 .contact-details {
@@ -48,13 +48,27 @@ header > h2 {
     display: block;
 }
 
+.contact-details li a {
+    text-decoration: none;
+}
+
 .main {
     width: 810px;
     padding: 15px 0 0 15px;
     border-left: solid 1px #222;
 }
 
-.main section > h1 {
+.main > section {
+    padding-bottom: 20px;
+    padding-top: 25px;
+    border-bottom: 1px dashed #222;
+}
+
+.main > section:last-child {
+    border: none;
+}
+
+.main > section > h1 {
     vertical-align: top;
     margin: 0;
     float: right;
