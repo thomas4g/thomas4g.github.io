@@ -1,0 +1,89 @@
+body {
+    margin: 0 auto;
+    width: 1100px;
+    font-family: "Roboto Condensed", serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 50px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    margin-bottom: 0;
+    font-family: "Playfair Display SC";
+    font-weight: normal;
+}
+
+header > h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+.contact, .main {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    vertical-align:top;
+    width: 260px;
+}
+
+.contact-details {
+    margin: 0;
+    padding: 10px;
+}
+
+.contact-details li {
+    display: block;
+}
+
+.main {
+    width: 810px;
+    padding: 15px 0 0 15px;
+    border-left: solid 1px #222;
+}
+
+.main section > h1 {
+    vertical-align: top;
+    margin: 0;
+    float: right;
+    font-variant: small-caps;
+    color: #444;
+}
+
+.resume-entry {
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+.resume-entry > h1, h2 {
+    font-size: 1.4em;
+    display: inline;
+}
+
+.resume-entry > h1:after {
+    content: " at ";
+    font-style: italic;
+    font-weight: normal;
+    font-size: .7em;
+    font-family: "Droid Serif";;
+}
+
+.resume-entry > h3 {
+    display: inline;
+    font-style: italic;
+    font-size: .8em;
+    font-weight: normal;
+    float: right;
+}
