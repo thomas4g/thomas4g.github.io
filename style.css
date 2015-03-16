@@ -70,6 +70,10 @@ header > h2 {
     border-bottom: 1px dashed #222;
 }
 
+#purpose {
+    text-align: center;
+}
+
 .main > section:last-child {
     border: none;
 }
