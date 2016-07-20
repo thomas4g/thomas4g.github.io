@@ -33,7 +33,7 @@ header > h2 {
 
 
 .sidebar, .main {
-    display: inline-block;
+	float: left;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -124,4 +124,34 @@ header > h2 {
     }
 
     .main { border: none; }
+}
+
+@media print {
+	* {
+		-webkit-transition: none !important;
+		transition: none !important;
+	}
+
+	html {
+		width: 8.5in;
+		font-size: 85%;
+	}
+
+	body {
+		width: 100%;
+	}
+
+	.sidebar {
+		width: 23%;
+	}
+
+	.main {
+		width: 77%;
+		padding-left: 35px;
+	}
+
+	#purpose {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
 }
